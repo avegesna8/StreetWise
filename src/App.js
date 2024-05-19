@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import Map from './Map';
 
 function App() {
+
   return (
-    <div className="Start">
-      <Map />
+    <div className="Map">
+      <Map/>
     </div>
   );
 }
